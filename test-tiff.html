@@ -53,7 +53,7 @@
 
         var buffer = e.target.result;
         
-        Tiff.initialize({TOTAL_MEMORY: 100000000*9}); // Initialize the memory with 100 MB
+        Tiff.initialize({TOTAL_MEMORY: 100000000}); // Initialize the memory with 100 MB
 
         var tiff = new Tiff({buffer: buffer});
         console.log('TIFF file loaded');
